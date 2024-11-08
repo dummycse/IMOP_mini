@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.header-row {
+    background-color: #088F8F; /* Adjust this color as desired */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 3.5em; /* Larger font size */
+    font-weight: 500; /* Bold font */
+    letter-spacing: 2px; /* Letter spacing */
+    text-transform: uppercase; /* Uppercase text */
+    margin: 0;
+    font-family: 'Verdana'; /* Elegant serif font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adding text shadow for depth */
+}
+
+form {
+    background-color: #40B5AD;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form div {
+    margin: 15px;
+}
+
+.input-group {
+    margin: 20px 0;
+}
+label {
+    font-size: 1.2em; /* Larger font for labels */
+    color: #34495e; /* Dark color for text */
+    font-family: 'Lora', serif; /* Serif font for label */
+    font-weight: 600; /* Slightly bold label */
+}
+
+label[for="content_image"] {
+    font-family: 'Verdana';  /* Change to a modern sans-serif font */
+    font-size: 1.5em;  /* Increase the font size */
+    color: white;  /* Dark color for the text */
+    font-weight: 500;  /* Slightly bold */
+    margin-bottom: 8px;  /* Space between label and input */
+    display: block;  /* Ensures label occupies a block space */
+}
+
+label[for="style_image"] {
+    font-family: 'Verdana';  /* Change to a modern sans-serif font */
+    font-size: 1.5em;  /* Increase the font size */
+    color: white;  /* Dark color for the text */
+    font-weight: 500;  /* Slightly bold */
+    margin-bottom: 8px;  /* Space between label and input */
+    display: block;  /* Ensures label occupies a block space */
+}
+
+input[type="file"] {
+    font-size: 1.1em;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #e8f0fe; /* Light background for input */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#loading {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 20px;
+}
